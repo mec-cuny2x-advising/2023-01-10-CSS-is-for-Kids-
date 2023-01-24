@@ -1,0 +1,97 @@
+<!--
+CSS is for Kids!
+
+Purpose
+We want to combine and practice all we're learning about HTML, basic CSS, and advanced CSS.
+
+Task
+Fork this repo and create an online children's popup book. Start with static visuals: styled elements, images, Materialize components. Then, using advanced CSS concepts like pseudo selectors, transitions, and animations, make the site interactive! The story and content are up to you; you can make one up or borrow an existing one.
+
+Note: you can include the Materialize CSS library if you want to. It provides a shortcut to beautiful components.
+
+Requirements
+1. Fork this repo
+2. Have multiple HTML pages
+3. No Javascript; we want you to explore the possibilities of CSS
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Compiled and minified Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper cyan darken-1">
+        
+        <ul class="left">
+          <li><a href="index.html">Home</a></li>
+        </ul>
+
+        <a href="#!" class="brand-logo">Page 02</a>
+
+        <ul class="right">
+          <li><a href="page03.html">Next</a></li>
+        </ul>
+        
+      </div>
+    </nav>
+  </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/160916_ret_bucketapproach.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>Who kept all his cash in a bucket...</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START PAGINATION -->
+    <ul class="pagination">
+      <li class="waves-effect"><a href="page01.html"><i class="material-icons">chevron_left</i></a></li>
+      <li class="waves-effect"><a href="page01.html">1</a></li>
+      <li class="active"><a href="#!">2</a></li>
+      <li class="waves-effect"><a href="page03.html">3</a></li>
+      <li class="waves-effect"><a href="page04.html">4</a></li>
+      <li class="waves-effect"><a href="page03.html"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+    <!-- END PAGINATION -->
+
+  </div>
+
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
